@@ -78,6 +78,6 @@ while (counter < 25000):
         print(f"{counter} points on screen at {round((t3-t1)/60, 3)} minutes")
 
 t2=time.time()
-print(f"\nFinsished! With {counter} points on screen. Time taken: {(t2-t1)/60} minutes")
+print(f"\nFinsished! With {counter} points on screen. Time taken: {round((t2-t1)/60, 3)} minutes")
 t.hideturtle()
 screen.exitonclick()
